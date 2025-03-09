@@ -1,0 +1,12 @@
+[package]
+name = "python-parsing"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tree-sitter = "0.20"
+tree-sitter-python = "0.20"
+
+[lib]
+name = "python_parsing"  # Name of the library
+path = "src/mod.rs"      # Path to the library entry point
