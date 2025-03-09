@@ -6,6 +6,8 @@ edition = "2024"
 [dependencies]
 tree-sitter = "0.20"
 tree-sitter-python = "0.20"
+log = "0.4"
+simplelog = "0.11"
 
 [lib]
 name = "python_parsing"  # Name of the library
